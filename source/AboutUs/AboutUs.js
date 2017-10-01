@@ -14,7 +14,7 @@ export default class AboutUs extends Component {
     return (
       <ContentBox>
         <ContentBoxHeader
-          text='AboutUs'
+          text='About Us'
           paramStyle={styles.Header}
         />
         <ContentBoxParagraph>

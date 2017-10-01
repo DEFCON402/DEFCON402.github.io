@@ -1,9 +1,9 @@
 /** @flow */
 import React, { Component, PropTypes } from 'react'
 import { ContentBox, ContentBoxHeader, ContentBoxParagraph } from '../demo/ContentBox'
-import styles from './NextMeeting.css';
+import styles from './Schedule.css';
 
-export default class NextMeeting extends Component {
+export default class Schedule extends Component {
 
   constructor (props, context) {
     super(props, context)
