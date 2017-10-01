@@ -1,0 +1,9 @@
+.Link:hover {
+  text-decoration: none;
+}
+
+.Header {
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #b64d4d;
+}
