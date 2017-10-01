@@ -140,7 +140,7 @@ export default class Application extends PureComponent {
                   The Internet of Tubes
                 </div>
                 <div className={styles.slideAuthor}>
-                  Henry Karpf
+                  Henry
                 </div>
               </div>
 
@@ -152,7 +152,7 @@ export default class Application extends PureComponent {
                   Software Defined Perimeter
                 </div>
                 <div className={styles.slideAuthor}>
-                  Brandon Scherer
+                  Brandon
                 </div>
               </div>
 
