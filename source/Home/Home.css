@@ -7,3 +7,14 @@
   border-bottom: 1px solid #ccc;
   color: #b64d4d;
 }
+
+.MainHeading {
+  font-size: 3.5rem;
+  font-weight: 100;
+  color: #b64d4d;
+  margin: 10px 0px;
+}
+
+.defcon {
+  font-family: 'Archivo Black', 'Roboto', 'Open Sans', sans-serif;
+}

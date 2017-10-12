@@ -16,6 +16,7 @@ import Calendar from "../Calendar/Calendar";
 import Slides from "../Slides/Slides";
 import AboutUs from "../AboutUs/AboutUs";
 import Connect from "../Connect/Connect";
+// import BackgroundImage from "../static/omaha.jpg";
 
 const COMPONENTS_MAP = {
   "/components/Home": Home,
@@ -55,11 +56,29 @@ export default class Application extends PureComponent {
     };
   }
 
+  // <ul className={styles.NavList}>
+  // <NavLink href='#'
+  //   iconType={TYPES.SPEAK}>
+  //   Speak
+  // </NavLink>
+  // <NavLink to="/components/Slides"
+  //   iconType={TYPES.SLIDES}>
+  //   Slides
+  // </NavLink>
+
+  // <div className={styles.HighOrderComponentList}>
+  // <ComponentLink to="/components/Calendar">
+  //   Calendar
+  // </ComponentLink>
+
   render() {
     const { isScrollingCustomElement } = this.state;
     const bodyStyle = isScrollingCustomElement
       ? styles.ScrollingBody
       : styles.Body;
+    // const bodyImage = {
+    //   backgroundImage: `url(${BackgroundImage})`
+    // }
     return (
       <HashRouter>
         <div className={styles.demo}>
@@ -71,14 +90,6 @@ export default class Application extends PureComponent {
               </div>
 
               <ul className={styles.NavList}>
-                <NavLink href='#'
-                  iconType={TYPES.SPEAK}>
-                  Speak
-                </NavLink>
-                <NavLink to="/components/Slides"
-                  iconType={TYPES.SLIDES}>
-                  Slides
-                </NavLink>
                 <NavLink to="/components/AboutUs" iconType={TYPES.ABOUTUS}>
                   About Us
                 </NavLink>
@@ -96,9 +107,6 @@ export default class Application extends PureComponent {
               <ComponentLink to="/components/Schedule">
                 Upcoming Schedule
               </ComponentLink>
-              <ComponentLink to="/components/Calendar">
-                Calendar
-              </ComponentLink>
               <ComponentLink to="/components/Connect">
                 Connect
               </ComponentLink>
@@ -106,69 +114,33 @@ export default class Application extends PureComponent {
           </div>
 
           <div className={styles.panel}>
-            <div className={bodyStyle}
-              ref={e => this.setState({ customElement: e })}
-            >
-              <div className={styles.column}>
-                {Object.keys(COMPONENTS_MAP).map(route =>
+            <div className={styles.backgroundImage}>
+              <div className={bodyStyle}
+                ref={e => this.setState({ customElement: e })}
+              >
+                <div className={styles.column}>
+                  {Object.keys(COMPONENTS_MAP).map(route =>
+                    <Route
+                      key={route}
+                      path={route}
+                      component={COMPONENTS_MAP[route]}
+                    />
+                  )}
                   <Route
-                    key={route}
-                    path={route}
-                    component={COMPONENTS_MAP[route]}
+                    exact
+                    path="/"
+                    render={() => <Redirect to="/components/Home" />}
                   />
-                )}
-                <Route
-                  exact
-                  path="/"
-                  render={() => <Redirect to="/components/Home" />}
-                />
-              </div>
-            </div>
-
-            <div className={styles.slides}>
-              Vertical Carousel of all the latest presentations.  (In progress...)
-
-
-              // Example code for now, move to RightSidebar soon
-
-              // Only show sidebar on pages != slides
-
-              <div className={styles.slidePane}>
-                <div className={styles.slidePreview}>
-                </div>
-                <div className={styles.slideTitle}>
-                  The Internet of Tubes
-                </div>
-                <div className={styles.slideAuthor}>
-                  Henry
                 </div>
               </div>
-
-
-              <div className={styles.slidePane}>
-                <div className={styles.slidePreview}>
-                </div>
-                <div className={styles.slideTitle}>
-                  Software Defined Perimeter
-                </div>
-                <div className={styles.slideAuthor}>
-                  Brandon
-                </div>
-              </div>
-
-
-              <div className={styles.slidePane}>
-                <div className={styles.slidePreview}>
-                </div>
-                <div className={styles.slideTitle}>
-                  Web Application Vulnerabilities
-                </div>
-                <div className={styles.slideAuthor}>
-                  Adam Schaal
-                </div>
-              </div>
-
-
+              <small>
+                <a href="https://timwright.photography"
+                  target="_blank"
+                  className={styles.imageSource}
+                >
+                  Image Source
+                </a>
+              </small>
             </div>
           </div>
         </div>

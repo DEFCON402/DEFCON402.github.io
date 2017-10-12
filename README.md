@@ -1,5 +1,5 @@
 # defcon402
 
 ```
-npm build:demo && npm run start
+npm run build:demo && npm run start
 ```

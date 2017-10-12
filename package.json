@@ -135,6 +135,7 @@
     "redbox-react": "^1.4.3",
     "rimraf": "^2.4.3",
     "style-loader": "^0.13.0",
+    "url-loader": "^0.6.2",
     "watch": "^1.0.2",
     "webpack": "^1.9.6",
     "webpack-dashboard": "^0.4.0",

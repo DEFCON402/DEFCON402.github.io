@@ -28,6 +28,10 @@ const config = {
         include: path.join(__dirname, 'source')
       },
       {
+        test: /\.(png|jpg|gif)$/,
+        loader: 'url-loader'
+      },
+      {
         test: /\.css$/,
         loaders: ['style', 'css?modules&importLoaders=1', 'postcss'],
         include: path.join(__dirname, 'source')
