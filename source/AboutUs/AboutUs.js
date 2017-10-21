@@ -29,7 +29,7 @@ export default class AboutUs extends Component {
         </ContentBoxParagraph>
 
         <ContentBoxHeader 
-          text='Board Members'
+          text='Members'
           paramStyle={styles.Header}/>
         <ContentBoxParagraph>
           <div className={styles.boardRow}>
@@ -41,28 +41,28 @@ export default class AboutUs extends Component {
             <div className={styles.BoardMember}/>
           </div>
           <div className={styles.boardRow}>
-            <div className={styles.BoardName}>Name</div>
-            <div className={styles.BoardName}>Name</div>
-            <div className={styles.BoardName}>Name</div>
-            <div className={styles.BoardName}>Name</div>
-            <div className={styles.BoardName}>Name</div>
+            <div className={styles.BoardName}>Tim Vidas</div>
+            <div className={styles.BoardName}>Jason Lehr</div>
             <div className={styles.BoardName}>Adam Schaal</div>
+            <div className={styles.BoardName}>Jessi McCain</div>
+            <div className={styles.BoardName}>Name</div>
+            <div className={styles.BoardName}>Name</div>
           </div>
           <div className={styles.titleRow}>
-            <div className={styles.BoardTitle}>President</div>
-            <div className={styles.BoardTitle}>Vice President</div>
-            <div className={styles.BoardTitle}>Treasurer</div>
-            <div className={styles.BoardTitle}>Secretary</div>
-            <div className={styles.BoardTitle}>Title</div>
-            <div className={styles.BoardTitle}>Webmaster</div>
+            <div className={styles.BoardTitle}>Founding Member</div>
+            <div className={styles.BoardTitle}>Founding Member</div>
+            <div className={styles.BoardTitle}>Founding Member</div>
+            <div className={styles.BoardTitle}>Founding Member</div>
+            <div className={styles.BoardTitle}>Founding Member</div>
+            <div className={styles.BoardTitle}>Founding Member</div>
           </div>
           <div className={styles.titleRow}>
-            <div className={styles.BoardEmail}>Email</div>
-            <div className={styles.BoardEmail}>Email</div>
-            <div className={styles.BoardEmail}>Email</div>
-            <div className={styles.BoardEmail}>Email</div>
-            <div className={styles.BoardEmail}>Email</div>
+            <div className={styles.BoardEmail}>tim@dc402.org</div>
+            <div className={styles.BoardEmail}>jason@dc402.org</div>
             <div className={styles.BoardEmail}>adam@dc402.org</div>
+            <div className={styles.BoardEmail}>jessi@dc402.org</div>
+            <div className={styles.BoardEmail}>Email</div>
+            <div className={styles.BoardEmail}>Email</div>
           </div>
         </ContentBoxParagraph>
       </ContentBox>
