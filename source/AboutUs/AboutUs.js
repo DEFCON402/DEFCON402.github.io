@@ -45,7 +45,7 @@ export default class AboutUs extends Component {
             <div className={styles.BoardName}>Jason Lehr</div>
             <div className={styles.BoardName}>Adam Schaal</div>
             <div className={styles.BoardName}>Jessi McCain</div>
-            <div className={styles.BoardName}>Name</div>
+            <div className={styles.BoardName}>Brad Pittack</div>
             <div className={styles.BoardName}>Name</div>
           </div>
           <div className={styles.titleRow}>
@@ -61,7 +61,7 @@ export default class AboutUs extends Component {
             <div className={styles.BoardEmail}>jason@dc402.org</div>
             <div className={styles.BoardEmail}>adam@dc402.org</div>
             <div className={styles.BoardEmail}>jessi@dc402.org</div>
-            <div className={styles.BoardEmail}>Email</div>
+            <div className={styles.BoardEmail}>brad@dc402.org</div>
             <div className={styles.BoardEmail}>Email</div>
           </div>
         </ContentBoxParagraph>
