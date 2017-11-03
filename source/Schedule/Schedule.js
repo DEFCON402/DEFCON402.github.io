@@ -63,6 +63,19 @@ export default class Schedule extends Component {
           Tim Vidas will be presenting the DARPA Cyber Grand Challnge, in pictures.  Bring your 3D glasses.
         </ContentBoxParagraph>
 
+        <ContentBoxHeader
+          text='Tuesday, January 9th - DEF CON 402 Meetup'
+          location='Pizza West'
+          map='https://goo.gl/maps/6AzW5Bi4bvQ2'
+          time='4-6:00pm'
+          paramStyle={styles.Header}
+        />
+
+        <ContentBoxParagraph>
+          Brad Pittack will be presenting National Cyber Security Frameworks: UK vs US edition.
+        </ContentBoxParagraph>
+
+
         
       </ContentBox>
     );
