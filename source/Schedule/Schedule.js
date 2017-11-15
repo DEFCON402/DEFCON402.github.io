@@ -28,7 +28,7 @@ export default class Schedule extends Component {
         </ContentBoxParagraph>
 
         <ContentBoxHeader
-          text='Tuesday, December 6th - DEF CON 402 Meetup'
+          text='Tuesday, December 5th - DEF CON 402 Meetup'
           location='Pizza West'
           map='https://goo.gl/maps/6AzW5Bi4bvQ2'
           time='4-6:00pm'
