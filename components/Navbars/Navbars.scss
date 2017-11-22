@@ -1,0 +1,87 @@
+
+.headerRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #b64d4d;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.logoRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.ReactContainer {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25rem;
+  text-decoration: none !important;
+}
+.LogoColumn {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+.PrimaryLogoText,
+.SecondaryLogoText {
+  text-transform: uppercase;
+}
+.PrimaryLogoText {
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: #272727;
+  margin: 0 0 0 .25em;
+  font-family: 'Archivo Black', 'Roboto', 'Open Sans', sans-serif;
+}
+.SecondaryLogoText {
+  font-weight: bold;
+  font-size: 1.65em;
+  color: #ffffff;
+}
+
+.NavList {
+  margin: 0 .75em 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.75rem;
+}
+
+.ComponentList,
+.HighOrderComponentList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0 0.5em;
+  list-style: none;
+  font-size: 0.7rem;
+  padding: 0 3rem;
+}
+.ComponentList {
+  background-color: #272727;
+}
+.HighOrderComponentList {
+  background-color: rgb(41, 40, 40);;
+}
+
+.ReactContainer:hover {
+  text-decoration: none !important;
+}
+

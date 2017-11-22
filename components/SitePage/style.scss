@@ -1,0 +1,123 @@
+.blog-page {
+	margin-bottom: 40px;
+}
+.blog-page h1 {
+	font-size: responsive 20px 36px;
+	line-height: 1.2;
+	margin-top: 0;
+	color: #f4f4f4;
+}
+.blog-page h2, h3, h4 {
+	color: rgba(250, 250, 250, .4);
+	margin-top: 0px;
+}
+.blog-page p {
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 26px;
+	font-family: sans-serif;
+	color: #f4f4f4;
+	font-weight: 100;
+}
+@media (max-width:900px) {
+	.blog-single .text, .blog-single .footer {
+		padding: 0 15px;
+	}
+}
+.page-title {
+	font-size: 30px;
+	color: #b64d4d;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+
+.highlight-title {
+	font-size: 2rem;
+	font-family: sans-serif;
+    font-weight: 100;
+    color: #b64d4d;
+    margin: 10px 0;
+}
+
+.bold-text {
+	font-size: 3rem;
+    font-family: Archivo Black,Roboto,Open Sans,sans-serif;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+
+/*
+	MD SPECIFIC LINKS
+*/
+.page-link {
+	color: #b64d4d;
+}
+.page-link:hover {
+	color: lighten(#b64d4d, 20%);
+	text-decoration: none;
+}
+
+
+/*
+	SOCIAL LINKS
+*/
+.blog-social {
+	margin-top: 30px;
+}
+.blog-social ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+	clear: fix-legacy;
+}
+.blog-social ul > li {
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	height: 24px;
+	width: 24px;
+	border-radius: 3px;
+	background: #fff;
+	border: solid 1px rgba(160, 160, 160, .3);
+}
+.blog-social ul > li:hover {
+	border: solid 1px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.blog-social ul > li > a {
+	border-bottom: 0;
+}
+.blog-social ul > li > a > i {
+	color: #595959;
+	font-size: 14px;
+	line-height: 24px;
+}
+.blog-social ul > li:hover a > i {
+	color: #444;
+}
+
+/*
+	PAGE DEFINED CLASSES
+*/
+.faq-viewport {
+	overflow: -moz-scrollbars-vertical; 
+	height: calc(100vh - 34vw);
+	overflow-y: scroll;
+
+	p {
+		padding-right: 12px;
+	}
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(250, 250, 250, .25);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}

@@ -1,0 +1,638 @@
+/*
+Gutenberg: Web Typography Starter Kit
+Website ....... http://matejlatin.github.io/Gutenberg/
+Version ....... 1.1
+Github ........ https://github.com/matejlatin/Gutenberg
+Authors ....... Matej Latin (@matejlatin)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/license.txt
+*/
+
+@import './colors';
+
+/* Font themes
+   ========================================================================== */
+@media screen and (min-width: 40em) {
+  .floatLeft {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .floatCenter {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .floatRight {
+    float: right;
+  }
+}
+
+/* Defaults
+   ========================================================================== */
+@media screen and (min-width: 40em) {
+  body, html {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-size: 100%;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  /*font-family: "Roboto", Arial, sans-serif;*/
+  color: $coal;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  html {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+
+* {
+  box-sizing: inherit;
+  &::before, &::after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  display: block;
+}
+
+body > footer {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header, main, section {
+  display: block;
+}
+
+/* Links
+   ========================================================================== */
+
+a {
+  background: transparent;
+  color: $coal;
+  text-decoration: none;
+  transition: all .3s;
+  &:active {
+    outline: 0;
+  }
+  &:hover {
+    outline: 0;
+    color: $coal;
+  }
+  &:active {
+    color: $coal;
+  }
+}
+
+article {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+@media screen and (min-width: 40em) {
+  article {
+    max-width: 945px;
+    max-width: 52.5rem;
+  }
+}
+
+audio {
+  display: inline-block;
+  vertical-align: baseline;
+  &:not([controls]) {
+    display: none;
+    height: 0;
+  }
+}
+
+canvas {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+}
+
+code {
+  padding: 26px;
+  padding: 1.625rem;
+  display: block;
+}
+
+@media screen and (min-width: 40em) {
+  code {
+    padding: 31px;
+    padding: 1.722222222222222rem;
+  }
+}
+
+details, summary {
+  display: block;
+}
+
+figcaption {
+  line-height: 26px;
+  line-height: 1.625rem;
+  color: $coal;
+  display: block;
+  font-size: .8125rem;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 40em) {
+  figcaption {
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-bottom: 0;
+  }
+}
+
+figure {
+  display: block;
+}
+
+@media screen and (min-width: 40em) {
+  figure {
+    &.floatLeft, &.floatRight {
+      max-width: 315px;
+      max-width: 17.5rem;
+      padding: 0px 31px;
+      padding: 0rem 1.722222222222222rem;
+    }
+  }
+}
+
+@media screen and (min-width: 40em) {
+  figure {
+    &.floatLeft blockquote, &.floatRight blockquote {
+      padding: 0px;
+      padding: 0rem;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (min-width: 40em) {
+  figure {
+    &.floatLeft blockquote p, &.floatRight blockquote p {
+      font-size: 19.2px;
+      font-size: 1.2rem;
+      line-height: 31px;
+      line-height: 1.722222222222222rem;
+    }
+  }
+}
+
+/* Headings
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: #3c3b3b;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 52px;
+  line-height: 3.25rem;
+  margin-top: 104px;
+  margin-top: 6.5rem;
+  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
+}
+
+h2 {
+  font-size: 27px;
+  font-size: 1.6875rem;
+  line-height: 39px;
+  line-height: 2.4375rem;
+  margin-top: 65px;
+  margin-top: 3.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+  /*text-transform: uppercase;*/
+}
+
+h3 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 52px;
+  margin-top: 3.25rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+h4 {
+  font-size: 19.2px;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 39px;
+  margin-top: 2.4375rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+
+h5, h6 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 65px;
+  margin-top: 3.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 62px;
+    line-height: 3.444444444444445rem;
+    margin-top: 124px;
+    margin-top: 6.888888888888889rem;
+    margin-bottom: 31px;
+    margin-bottom: 1.722222222222222rem;
+  }
+  h2 {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 46.5px;
+    line-height: 2.583333333333334rem;
+    margin-top: 77.5px;
+    margin-top: 3.305555555555556rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+    /*text-transform: uppercase;*/
+  }
+  h3 {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-top: 62px;
+    margin-top: 3.444444444444445rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+  }
+  h4 {
+    font-size: 19.2px;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-top: 46.5px;
+    margin-top: 2.583333333333334rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+  }
+  h5, h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-top: 77.5px;
+    margin-top: 3.305555555555556rem;
+    margin-bottom: 15.5px;
+    margin-bottom: 0.861111111111111rem;
+  }
+}
+
+h1 + h2 {
+  margin-top: 26px;
+  margin-top: 1.625rem;
+}
+
+@media screen and (min-width: 40em) {
+  h1 + h2 {
+    margin-top: 31px;
+    margin-top: 1.722222222222222rem;
+  }
+}
+
+h2 + h3, h3 + h4, h4 + h5 {
+  margin-top: 13px;
+  margin-top: 0.8125rem;
+}
+
+@media screen and (min-width: 40em) {
+  h2 + h3, h3 + h4, h4 + h5 {
+    margin-top: 15.5px;
+    margin-top: 0.861111111111111rem;
+  }
+}
+
+h5 + h6 {
+  margin-top: -13px;
+  margin-top: -0.8125rem;
+}
+
+@media screen and (min-width: 40em) {
+  h5 + h6 {
+    margin-top: -15.5px;
+    margin-top: -0.861111111111111rem;
+  }
+}
+
+h6 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+hgroup {
+  display: block;
+}
+
+hr {
+  margin-top: 52px;
+  margin-top: 3.25rem;
+  margin-bottom: 52px;
+  margin-bottom: 3.25rem;
+  box-sizing: content-box;
+  border: 0;
+  color: $coal;
+  display: block;
+  height: 26px;
+  height: 1.625rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: 100% 26px;
+  background-size: 100% 1.625rem;
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $coal 11px, $coal 15px, transparent 15px, transparent 26px);
+  width: 100px;
+}
+
+@media screen and (min-width: 40em) {
+  hr {
+    background-size: 100% 31px;
+    background-size: 100% 1.722222222222222rem;
+    background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, $coal 13.5px, $coal 17.5px, transparent 17.5px, transparent 31px);
+    margin-top: 62px;
+    margin-top: 2.444444444444445rem;
+    margin-bottom: 62px;
+    margin-bottom: 2.444444444444445rem;
+    height: 31px;
+    height: 1.722222222222222rem;
+  }
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  display: block;
+  margin: inherit auto;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+ul li, ol li {
+  margin-bottom: 0;
+}
+
+nav {
+  display: block;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+blockquote {
+  font-style: italic;
+  padding-left: 1.4375rem;
+}
+
+@media screen and (min-width: 40em) {
+  blockquote {
+    padding-left: 2rem;
+  }
+}
+
+cite {
+  display: block;
+  font-style: normal;
+}
+
+figure blockquote {
+  padding: 26px 0px;
+  padding: 1.625rem 0rem;
+  p {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 39px;
+    line-height: 2.4375rem;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  figure blockquote {
+    padding: 62px 0px 31px;
+    padding: 3.444444444444445rem 0rem 1.722222222222222rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  figure blockquote p {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 46.5px;
+    line-height: 2.583333333333334rem;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+abbr {
+  letter-spacing: 0.1em;
+  &[title] {
+    border-bottom: 1px dotted;
+  }
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+em, i {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  line-height: 13px;
+  line-height: 0.8125rem;
+  font-size: 70%;
+}
+
+@media screen and (min-width: 40em) {
+  small {
+    line-height: 15.5px;
+    line-height: 0.861111111111111rem;
+  }
+}
+
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  font-size: 14px;
+}
+
+.highlight-quote {
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.md-link {
+  border-bottom: dotted 2px $bondi-blue;
+  /*border-bottom: black 1px dotted;*/
+}
+
+/* Paragraph
+   ========================================================================== */
+
+.attention-grabber {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.uppercase {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+
+/*
+  Google Fonts
+  Loaded locally with the assistance of the following project:
+  https://github.com/majodev/google-webfonts-helper
+  The following fonts are loaded:
+  Source Sans Pro v9: 400, 700
+  Raleway v10: 400, 800, 900
+*/
+/* source-sans-pro-regular - latin-ext_latin_vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.eot'); /* IE9 Compat Modes */
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'),
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+}
+/* source-sans-pro-700 - latin-ext_latin_vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.eot'); /* IE9 Compat Modes */
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,500,700,900');
+

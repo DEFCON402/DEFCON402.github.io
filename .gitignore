@@ -1,7 +1,6 @@
-.DS_Store
-coverage
-dist
-node_modules
+node_modules/
+plugins/
+platforms/
 npm-debug.log
-styles.css
-.vscode
+.DS_Store
+

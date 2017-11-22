@@ -1,0 +1,129 @@
+p > code, span > code {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  word-wrap: break-word;
+  background: #f8f8f8;
+  display: inline;
+  font-family: Inconsolata, monospace, serif;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.25em 0.5em;
+}
+pre code {
+  display: block;
+  border-radius: 3px;
+  overflow-x: auto;
+  padding: 0.5em 1em;
+  color: #333;
+  background: #f8f8f8;
+}
+.hljs-comment, .hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+.hljs-keyword, .hljs-selector-tag, .hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+.hljs-number, .hljs-literal, .hljs-variable, .hljs-template-variable, .hljs-tag .hljs-attr {
+  color: #008080;
+}
+.hljs-string, .hljs-doctag {
+  color: #d14;
+}
+.hljs-title, .hljs-section, .hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+.hljs-subst {
+  font-weight: normal;
+}
+.hljs-type, .hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+.hljs-tag, .hljs-name, .hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+.hljs-regexp, .hljs-link {
+  color: #009926;
+}
+.hljs-symbol, .hljs-bullet {
+  color: #990073;
+}
+.hljs-built_in, .hljs-builtin-name {
+  color: #0086b3;
+}
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+.hljs-deletion {
+  background: #fdd;
+}
+.hljs-addition {
+  background: #dfd;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
+.hljs-line-numbers {
+  text-align: right;
+  border-right: 1px solid #ccc;
+  color: #999;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+code {
+  background: rgba(160, 160, 160, 0.075);
+  border: solid 1px rgba(160, 160, 160, 0.2);
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+}
+pre code {
+  display: block;
+  line-height: 1.75em;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+pre {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+.text-response {
+  max-width: 750px;
+  font-size: 13px;
+  color: #5ba0ef;
+  background-color: #f8feff;
+  border: 1px solid #B8DCFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+  line-height: 20px;
+  margin: 20px auto;
+}

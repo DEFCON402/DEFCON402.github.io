@@ -1,0 +1,60 @@
+@import '../../static/scss/colors';
+
+.blog-social {
+	margin-top: 30px;
+}
+.blog-social ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+	clear: fix-legacy;
+}
+.blog-social ul > li {
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	height: 24px;
+	width: 24px;
+	border-radius: 3px;
+	background: $white;
+	border: solid 1px rgba(160, 160, 160, .3);
+}
+.blog-social ul > li:hover {
+	border: solid 1px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.blog-social ul > li > a {
+	border-bottom: 0;
+}
+.blog-social ul > li > a > i {
+	color: $scorpion;
+	font-size: 14px;
+	line-height: 24px;
+}
+.blog-social ul > li:hover a > i {
+	color: $tundora;
+}
+
+/*
+	BIG ICONS
+*/
+.big-icons {
+	display: flex;
+	margin-top: 0px !important;
+}
+.big-icons ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+}
+.big-icons ul > li {
+	margin: 30px 30px !important;
+	height: 100px !important;
+	width: 100px !important;
+}
+.big-icons ul > li > a > i {
+	font-size: 80px !important;
+	line-height: 100px !important;
+}

@@ -1,0 +1,14 @@
+siteTitle = "defcon402"
+siteDescr = "Security in the midwest."
+siteAuthor = "Adam Schaal"
+
+siteTwitterUrl = "https://twitter.com/defcon402"
+siteGithubUrl = "https://github.com/DEFCON402/DEFCON402.github.io"
+sitelinkedInUrl = "https://www.linkedin.com/groups/13554437"
+siteEmailUrl = "adam@dc402.org"
+siteFacebookUrl = "https://www.facebook.com/DC402/"
+siteYouTubeUrl = "#"
+
+googleAnalyticsId = "UA-109234778-1"
+
+linkPrefix = "/"
