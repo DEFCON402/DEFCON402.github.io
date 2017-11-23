@@ -11,8 +11,8 @@
     "copy:files": "cp pages/*.{pdf,txt,png,jpg,jpeg,gif} public/",
     "copy": "npm run copy:files",
     "mkpublic": "mkdir public & touch public/styles.scss",
-    "dep": "npm run build && git push origin :master && git subtree push --prefix public origin master",
-    "deploy": "npm run build && gh-pages -d public -b master"
+    "dep": "npm run build && cp CNAME ./public/ && git push origin :master && git subtree push --prefix public origin master",
+    "deploy": "npm run build && cp CNAME ./public/ && gh-pages -d public -b master"
   },
   "keywords": [
     "gatsby",

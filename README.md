@@ -54,6 +54,7 @@ iconType: Icon enumeration table key
 priority: What order to display link in the navbar 
 className: Any class you'd like applied to the content as a whole
 hide: Boolean value (true to show in navbar, false to not show in navbar).  False doesn't mean the page doesn't exist, just not in navbar - for example Code of Conduct page.
+bigIcons: Boolean value used to trigger big icons in `components/SiteLinks/index.jsx`.  Similar config booleans can be used to do any number of things.
 ---
 ```
 
