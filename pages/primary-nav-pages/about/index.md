@@ -4,6 +4,7 @@ layout: page
 path: "/about/"
 iconType: "ABOUTUS"
 priority: 0
+className: "faq-viewport"
 ---
 
 DC402 Meets at different local venues every second Tuesday of the month. Check the website or follow us at @defcon402 for the latest information.
