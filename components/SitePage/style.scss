@@ -105,9 +105,18 @@
 */
 .faq-viewport {
 	overflow: -moz-scrollbars-vertical; 
-	height: calc(100vh - 34vw);
-	overflow-y: scroll;
-
+	height: calc(70vh - 10vw);
+    overflow-y: scroll;
+    margin-bottom: 30px;
+	p {
+		padding-right: 12px;
+	}
+}
+.about-viewport {
+	overflow: -moz-scrollbars-vertical; 
+	height: calc(35vh - 10vw);
+    overflow-y: scroll;
+    margin-bottom: 30px;
 	p {
 		padding-right: 12px;
 	}
@@ -120,9 +129,11 @@
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 7px;
+  height: 7px;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background-color: rgba(250, 250, 250, .25);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
+

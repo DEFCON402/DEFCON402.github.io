@@ -58,22 +58,55 @@
     font-size: 24px !important;
     padding-top: .5rem;
   }
-  .blog-page p {
-    font-size: 16px !important;
-    margin-bottom: 10px !important;
+  .blog-page {
+    margin-bottom: 20px !important;
+    p {
+      font-size: 16px !important;
+      margin-bottom: 10px !important;
+    }
+    h3 {
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
   }
-  .blog-page h3 {
-    font-size: 20px;
-    margin-bottom: 6px;
+  .blog-social {
+    margin-top: 10px !important;
   }
   .faq-viewport {
     height: calc(100vh - 70vw) !important;
+  }
+  .about-viewport {
+    height: calc(80vh - 70vw) !important;
   }
   .home-divs {
     font-size: 16px !important;
   }
   .schedule-cal {
     height: calc(100vh - 80vw) !important;
+  }
+
+  .big-icons ul > li {
+    margin: 15px 15px !important;
+  }
+
+  .about-us-founders {
+    overflow-x: scroll;
+    display: -webkit-box !important;
+    font-size: 10px !important;
+
+    .about-us-section {
+      width: 50px;
+      .about-us-picture {
+        width:40px !important;
+        height:50px !important;
+      }
+      .about-us-name {
+        font-size: 12px !important;
+      }
+      .about-us-handle {
+        margin-bottom: 10px;
+      }
+    }
   }
 }
 
@@ -227,3 +260,34 @@ a {
     transform: scale(2.5);
   }
 }
+
+
+.about-us-founders {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+  .about-us-section {
+    width: 100px;
+    .about-us-picture {
+      background-color: white;
+      margin: auto;
+      width:80px;
+      height:100px;
+    }
+    .about-us-email {
+      font-size: 10px;
+    }
+    .about-us-name {
+      font-size: 14px;
+    }
+    .about-us-name, .about-us-description, .about-us-email, .about-us-handle {
+      width: 100px;
+    }
+  }
+}
+
+
+
+
+

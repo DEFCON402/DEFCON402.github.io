@@ -5,6 +5,7 @@ import {prefixLink} from 'gatsby-helpers'
 import access from 'safe-access'
 import {config} from 'config'
 import SiteLinks from '../SiteLinks'
+import AboutUs from './about-us'
 
 import './style.scss';
 
@@ -18,6 +19,9 @@ class SitePage extends React.Component {
       : post.title
     const className = post.className ? post.className : ''
     const bigIcons = post.bigIcons ? post.bigIcons : ''
+    const aboutUs = post.path == '/about/'
+      ? <AboutUs />
+      : ''
 
     return (
       <div>
@@ -28,6 +32,7 @@ class SitePage extends React.Component {
                 <div className='text'>
                   <div className='page-title'>{title}</div>
                   <div className={className} dangerouslySetInnerHTML={{__html: post.body}}/>
+                  {aboutUs}
                   <SiteLinks bigIcons={bigIcons}/>
                 </div>
               </div>
