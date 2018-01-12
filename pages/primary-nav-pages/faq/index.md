@@ -14,28 +14,28 @@ className: "faq-viewport"
 
 Q: What is DEFCON?
 
-A: DEFCON is the largest security convention in the world. DEFCON takes place every year in Las Vegas, NV. You can read more about DEFCON here.
+A: DEFCON is the largest security convention in the world. DEFCON takes place every year in Las Vegas, NV. You can read more about DEFCON  <a class="page-link" href="https://www.defcon.org/">here.</a>
 
 
 ### About the meetings
 
 Q: How often do you meet?
 
-A: We meet every month. Sometimes we spontaneously meet for smaller, non-formal hacking sessions.
+A: We meet every month on the 2nd Tuesday for technical talk and group hangout. Also see our official <a class="page-link" href="https://www.defcon.org/">Calendar</a>.
 
 
 ### Joining defcon402
 
 Q: How can I join the Slack channel?
 
-A: Send us an email. We will send you an invite as soon as we can.
+A: Shoot us an email. We will send you an invite as soon as we can.
 
 
 ### Contributing to DEF CON 402
 
 Q: How can I contribute to the group?
 
-A: Reach out to us via the Contact Form or send us an email.
+A: Reach out to us via the Speech Submission tab.  Attend meetups and participate!
 
 
 ### Sponsorship with DEF CON 402
@@ -47,4 +47,4 @@ A: We would love to hear more about your company and how we can work together. S
 
 ### Code of Conduct
 
-We are dedicate to providing a harassment-free experience for everyone. read our <a class="page-link" href="/code-of-conduct/">official code of conduct</a>, it applies to all DEF CON 402 spaces. offline and online.
+We are dedicate to providing a harassment-free experience for everyone. read our <a class="page-link" href="/code-of-conduct/">official code of conduct,</a> it applies to all DEF CON 402 spaces. offline and online.

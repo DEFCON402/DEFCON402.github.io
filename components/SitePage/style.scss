@@ -13,7 +13,7 @@
 }
 .blog-page p {
 	font-size: 18px;
-	line-height: 1.6;
+	line-height: 1.2;
 	margin-bottom: 26px;
 	font-family: sans-serif;
 	color: #f4f4f4;
@@ -55,7 +55,7 @@
 	color: #b64d4d;
 }
 .page-link:hover {
-	color: lighten(#b64d4d, 20%);
+	color: darken(#b64d4d, 10%);
 	text-decoration: none;
 }
 
