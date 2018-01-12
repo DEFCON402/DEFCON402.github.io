@@ -21,7 +21,7 @@ A: DEFCON is the largest security convention in the world. DEFCON takes place ev
 
 Q: How often do you meet?
 
-A: We meet every month on the 2nd Tuesday for technical talk and group hangout.
+A: We meet every month on the 2nd Tuesday for technical talk and group hangout. Also see our official <a class="page-link" href="https://www.defcon.org/">Calendar</a>.
 
 
 ### Joining defcon402
@@ -35,7 +35,7 @@ A: Shoot us an email. We will send you an invite as soon as we can.
 
 Q: How can I contribute to the group?
 
-A: Reach out to us via the Speech Submission tab.
+A: Reach out to us via the Speech Submission tab.  Attend meetups and participate!
 
 
 ### Sponsorship with DEF CON 402
