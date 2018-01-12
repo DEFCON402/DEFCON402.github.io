@@ -10,7 +10,7 @@ className: "faq-viewport"
 
 DEF CON 402 is commited to providing a harassment-free experience for every person, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, religion, or editor preference.  We do not tolerate any forms of harassment of group participants.
 
-This code of conduct applies to all DEF CON 402 mediums, including meetups, events, and online chats.  Anyone who violates this code of conduct may be sanctioned or expelled from these mediums at the discretion of the board.
+This code of conduct applies to all DEF CON 402 mediums, including meetups, events, and online chats.  Anyone who violates this code of conduct may be sanctioned or expelled from these mediums at the discretion of the DC402 PoCs.
 
 Harassment includes:
 
@@ -39,4 +39,4 @@ DEF CON 402 encourages participants to act as though they are surrounded by coll
 * Restrict conversation of sensitive subjects including, but not limited to, politics and religion, to private communications.
 
 
-If you are being harassed by a DEF CON 402 member, notice that someone else is being harassed, or have any other concerns, please contact the board at <a class="page-link">report@dc402.org.</a>  If the person who is harassing you is on the board, they will recuse themselves from handling your incident.  We will respond in a prompt and decisive manner.
+If you are being harassed by a DEF CON 402 member, notice that someone else is being harassed, or have any other concerns, please contact the DC402 PoCs at <a class="page-link">report@dc402.org.</a>  If the person who is harassing you is a DC402 PoC, they will recuse themselves from handling your incident.  We will respond in a prompt and decisive manner.
