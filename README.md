@@ -1,4 +1,4 @@
-# defcon402.org
+## This is not the project you're looking for.  
 
-This is not the branch you're looking for.  In order to setup this project, please use the `source` branch.
+Our project is located at [here](https://github.com/DEFCON402/website)
 
